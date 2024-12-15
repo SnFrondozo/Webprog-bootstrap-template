@@ -12,18 +12,29 @@
         <link href="css/styles.css" rel="stylesheet" />
         <style>
             body {
-                background-color: darkred;
+                background-color: black;
                 color: white;
             }
             .navbar {
                 background-color: black;
             }
-            .bg-primary {
-                background-color: black !important;
-            }
-            .bg-dark, .text-bg-warning {
-                background-color: darkred !important;
+            .bg-primary, .bg-dark {
+                background-color: #8B0000 !important; /* Dark Red */
                 color: white !important;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 5px;
+            }
+            .text-bg-warning {
+                background-color: #B22222 !important; /* Lighter Red */
+                color: white !important;
+                padding: 15px;
+                border-radius: 5px;
+                margin: 5px;
+            }
+            h3 {
+                font-weight: bold;
+                text-decoration: underline;
             }
         </style>
     </head>
@@ -54,11 +65,13 @@
         <!-- Page content-->
         <div class="container-fluid mt-3">
             <div class="row">
-                <div class="col-md bg-primary text-white">About Me<br>
+                <div class="col-md bg-primary">
+                    <h3>About Me</h3>
                     Name: Sondrick Frondozo<br> 
                     Nickname: Drick / Sun
                 </div>
-                <div class="col-md bg-dark text-white">Education & Achievements<br>
+                <div class="col-md bg-dark">
+                    <h3>Education & Achievements</h3>
                     Achievements: None<br>
                     Humanities and Social Sciences<br>
                     Education: Asia Pacific College<br>
@@ -67,21 +80,25 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md text-bg-warning">Course<br>
+                <div class="col-md text-bg-warning">
+                    <h3>Course</h3>
                     Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies
                 </div>
-                <div class="col-md text-bg-warning">IT Experience<br>
+                <div class="col-md text-bg-warning">
+                    <h3>IT Experience</h3>
                     SQL<br>
                     JavaScript<br>
                     Python<br>
                     CSS
                 </div>
-                <div class="col-md text-bg-warning">Hobbies & Interests<br>
+                <div class="col-md text-bg-warning">
+                    <h3>Hobbies & Interests</h3>
                     Music<br>
                     Reading manhwa/novels/manga<br>
                     Playing Games
                 </div>
-                <div class="col-md text-bg-warning">Career Goals<br>
+                <div class="col-md text-bg-warning">
+                    <h3>Career Goals</h3>
                     - Become a Full-Stack Developer<br>
                     - Contribute to Open-Source Projects<br>
                     - Lead a Tech Development Team
